@@ -124,13 +124,51 @@ h1, p {
         display: block; /* Removes extra space below the image */
     }
 
-.about {
-        /* position: relative; */
-        width: 100vw;
-        height: 100vh; /* Makes the section cover the full viewport height */
-        background: url('team-diverse-colleagues-their-way-office.jpg') no-repeat center center/cover;
-        filter: blur(1px); /* Blurs the background image */
-    }
+    .about {
+    position: relative;
+    width: 100vw;
+    height: 100vh; /* Makes the section cover the full viewport height */
+    background: url('about.png') no-repeat center center/cover;
+}
+
+.about h2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 1%; /* Adjust the position of "About Us" */
+    left: 10%;
+    transform: translateX(-50%);
+    font-weight: boldest;
+}
+
+.about p {
+    position: absolute;
+    top: 30%;
+    left: 60%; /* Moves it slightly to the right */
+    transform: translate(50%, -50%);
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Adds contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 10%; /* Moves it slightly above the bottom */
+    left: 50%;
+    transform: translateX(-90%);
+    color: white;
+    background: rgba(0, 0, 0, 0.3); /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    max-width: 80%; /* Prevents text from being too wide */
+}
+
+</style>
 
 
 
@@ -156,11 +194,18 @@ h1, p {
             <h1>Welcome to Talent Match Africa</h1>
             <p>Connecting talent with opportunities across Africa.</p>
         </div>
-    </section>
+    </section> <br><br><br><br>
 
     <section id="about" class="about">
         <h2>About Us</h2>
-        <!-- <img class="about-us" src="team-diverse-colleagues-their-way-office.jpg" alt="logo"> -->
+        <p>We’re not here to<br>
+            fill a gap—but<br>
+            raise the standard.</p>
+
+            <div class="bottom-text"> We go beyond conventional recruitment; <br>
+             delving into understanding a business’s unique needs and focusing on outcomes rather than simply filling roles.<br>
+             Our exclusive talent cohorts are not recruited, instead meticulously curated with only the best problem solvers <br> and innovators ready to join the global workforce – all at an affordable cost.<br>
+             We measure our success by the sustained employment and success of each individual. </div>
     </section>
 
     </section>
